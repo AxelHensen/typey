@@ -1,0 +1,38 @@
+
+body{
+background-color: #f1f1f1;
+}
+
+#polaroid_image {
+    display: block;
+    margin: 0 auto;
+    max-width: 95%;
+    max-height:100%;
+}
+
+.polaroid {
+    /* midden van scherm */
+    margin: 0 auto;
+    width: 500px !important;
+    background-color: #F9F6ED;
+    padding-top: 5px;
+}
+
+.polaroid h2 {
+    margin-left: 4%;
+    line-height: 20px;
+    
+}
+
+.polaroid p {
+    padding-top: 10px;
+    margin: 0 2.5%;
+}
+
+.fb-share-button {
+    margin: 0 2.5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
