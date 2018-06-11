@@ -6,18 +6,23 @@ Met deze library is het mogelijk om een willekeurig lettertype (font) te selecte
 ### Prerequisites
 Om deze library te kunnen gebruiken heb je het volgende nodig:
 
- 1. Een selectie fonts waar de library uit mag kiezen. Deze fonts dien je te linken in de <head> van je HTML-bestand. Voorbeeld afkomstig van [Google Fonts](http://fonts.google.com)
+ 1. Een selectie fonts waar de library uit mag kiezen. Deze fonts dien je te linken in de `<head>` van je HTML-bestand. Voorbeeld afkomstig van [Google Fonts](http://fonts.google.com)
 ```html	        
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 ```
 
 Een voorbeeld van de code en de mappenstructuur die vereist is is te vinden in de map 'demo'
 
-3. JQuery. Deze library is onder andere te laden via [Google Hosted Libraries](https://developers.google.com/speed/libraries/). Verdere instructies betreffende JQuery zijn hier ook te vinden
+3. JQuery. Deze library is onder andere te laden via [Google Hosted Libraries](https://developers.google.com/speed/libraries/). Verdere instructies betreffende JQuery zijn hier ook te vinden. JQuery includen in je code kan als volgt:
+```html
+<!-- in dit code voorbeeld zit ook een fallback -->
+<script  src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery-3.3.1.min.js"><\/script>')</script>
+```
 
 ### Installing
 
-Maak een map aan in dezelfde map als waar **index.html** staat en noem deze map **JS**
+Maak een map aan in dezelfde map als waar **index.html** staat en noem deze map **js**
 In deze map dient het volgende bestand te staan: **typey.js**
 
 Plaats daarna de scripts onderaan het HTML bestand, tussen de body`<body>` tags.
